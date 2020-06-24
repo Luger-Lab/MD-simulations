@@ -1,0 +1,18 @@
+#load forcefield parameters
+source leaprc.protein.ff14SB
+source leaprc.DNA.bsc1
+source leaprc.water.tip3p
+
+unit = loadpdb ../hpya_DNA_no_loop_neutralized_edit.pdb
+#'loadpbd' fills in missing H atoms, and missing heavy atoms
+
+#add water box 
+solvatebox unit	TIP3PBOX 25.0
+
+#add salt to buffer
+#addionsrand unit K+ 972 Cl- 972
+
+saveamberparm unit ../2M_KCL_hpya_DNA_no_loop_buffer.prmtop ../2M_KCL_hpya_DNA_no_loop_buffer.inpcrd
+
+quit
+
