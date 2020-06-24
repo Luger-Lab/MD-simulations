@@ -134,7 +134,7 @@ This repository will provide explanations and examples on how to run molecular d
             mpirun -np 9 pmemd.MPI -O -i min2.in -o ../outputs/min2.out -p ../${NAME}_buffer.prmtop -c ../restarts/${NAME}_min1.rst -r ../restarts/${NAME}_min2.rst\
              -x ../trajectories/${NAME}_min2.nc -inf ../mdinfo/${NAME}_min2.mdinfo
 
-    11. run heating and density equilibration (using 'bash 5_2M_KCL_heat_and_density_equilibrate.bash' command for local GPU or 'sbatch 5_2M_KCL_heat_and_density_equilibrate.bash' for Slurm system):
+11. run heating and density equilibration (using 'bash 5_2M_KCL_heat_and_density_equilibrate.bash' command for local GPU or 'sbatch 5_2M_KCL_heat_and_density_equilibrate.bash' for Slurm system):
     
 *the example scripts are written for a Slurm managed system, replace the #SBATCH lines with the following to run on a local GPU:
 
