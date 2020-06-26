@@ -2,7 +2,7 @@
 This repository will provide explanations and examples on how to run molecular dynamics simulations through parmed in the Amber18 suite. The following is an example of how to run a molecular dynamics simulation starting from a PDB.
 
 
-# MD of Hpya monomer and 30bp DNA
+# MD example
 0. create a directory with the name of the simulation you'd like to run (can add a number to the end of it if it's a replicate) 
 
         mkdir 2M_KCL_hpya_DNA
@@ -14,7 +14,7 @@ This repository will provide explanations and examples on how to run molecular d
         
    *prep your pdb in pdb_prep, then move the prmtop out to same level as all the directories, run all simulations from the scripts directory 
    
-1. create Hpya + 30bp DNA pdb by deleting two other monomers and trimming DNA from Hpya nucleosome model in Chimera
+1. (just prepping pdb here) create Hpya + 30bp DNA pdb by deleting two other monomers and trimming DNA from Hpya nucleosome model in Chimera
     - sequence = ATCAATTAAAGCGTTCTACGGCGTTTTTGA
     - output: hpya_DNA.pdb
     
