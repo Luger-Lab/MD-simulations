@@ -1,0 +1,16 @@
+#load forcefield parameters
+source leaprc.protein.ff14SB
+source leaprc.DNA.bsc1
+source leaprc.water.tip3p
+
+unit = loadpdb ../hpya_DNA_no_loop.pdb
+#'loadpbd' fills in missing H atoms, and missing heavy atoms
+
+#add counter-ions
+addions unit K+ 0
+
+#save neutralized PDB
+savepdb unit ../hpya_DNA_no_loop_neutralized.pdb
+
+quit
+
