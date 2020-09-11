@@ -15,7 +15,8 @@ Now that we've found out when our complex has fully equillibrated via analyzing 
         NAME=msm0213
         END1=64
         ante-MMPBSA.py -p ../${NAME}_buffer.prmtop -c complex.prmtop -r receptor.prmtop -l ligand.prmtop -s :WAT,K+,K,Na+,NA,CL,Cl- -m :1-${END1} --radii mbondi2
-        
+    - NAME : basename of your prmtop file (if running from an analysis folder 1 step below)
+    - END1 : kind of specifc to Mando's case, but if you have 2 proteins next to eachother in the PDB, this is the residue number the first ends at (need to change for each new complex you run)
     - -p : prmtop you are inputting 
     - -c : name of the complex prmtop you'd like to create
     - -r : name of the receptor prmtop  you'd like to create
