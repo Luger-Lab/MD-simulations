@@ -1,7 +1,7 @@
 # RMSD analysis
 
 # MMGBSA analysis
-Now that we've found out when our complex has fully equillibrated via analyzing RMSD vs. frame, we can calculate the free energy of binding of our complex to see how strong this interaction is. Generally, the MMGBSA calculation will calculate the free energy of the overall "complex", the "'receptor'" molecule and the "'ligand'" molecule. It will the subtract the receptor and ligand free energies from the complex to get a free energy of binding.
+Now that we've found out when our complex has fully equillibrated via analyzing RMSD vs. frame, we can calculate the free energy of binding of our complex to see how strong this interaction is. Generally, the MMGBSA calculation will calculate the free energy of the overall "complex", the "receptor" molecule and the "ligand" molecule. It will the subtract the receptor and ligand free energies from the complex to get a free energy of binding.
 
 0. The first thing we need to do is create three prmtops that will seperate the atoms in our simulation into:
    - complex: all of the atoms we want to run the calculation on
