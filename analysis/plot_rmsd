@@ -5,11 +5,13 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Plot conservation of a protein.')
+    parser = argparse.ArgumentParser(description='Plot rmsds of multiple md sims.')
     parser.add_argument('-i', '--input', required=True, nargs='+', type=str,
                         help='Input file in .dat format')
     parser.add_argument('-l', '--labels', required=True, nargs='+', type=str,
                         help='Labels for data, in order ')
+    parser.add_argument('-c', '--colors', required=False, nargs='+', type=str,
+                        help='Colors for data, in order ', default=['#AEC7E8', '#98DF8A', '#FF9896', '#FFB347', '#C5B0D5'])
     parser.add_argument('-N', required=True, type=int,
                         help='Plot every Nth point')
     parser.add_argument('-y', '--ylim', required=True, type=float,
@@ -20,6 +22,7 @@ def main():
 
     input_files = args.input
     labels = args.labels
+    colors = args.colors
     nth = args.N
     ylim = args.ylim
     title = args.title
@@ -29,7 +32,7 @@ def main():
         data = import_data(file)
         trimmed_data = trim_data(data, nth)
         all_data.append(trimmed_data)
-    plot_data(all_data, ylim, title, labels)
+    plot_data(all_data, ylim, title, labels, colors)
 
 def import_data(input_file):
     with open(input_file, 'r') as file:
@@ -53,12 +56,12 @@ def trim_data(data, nth):
     trimmed_data = [trimmed_frames, trimmed_rmsds]
     return(trimmed_data) 
 
-def plot_data(all_data, ylim, title, labels):
+def plot_data(all_data, ylim, title, labels, colors):
     fig, ax = plt.subplots()
-    for data, label in zip(all_data, labels):
-        plt.plot(data[0],data[1],label=label)
+    for data, label, color in zip(all_data, labels, colors):
+        plt.plot(data[0],data[1], label=label, color=color)
     plt.title(title)
-    plt.legend()
+    plt.legend(loc=1)
     plt.xlabel('Frame')
     plt.ylabel('RMSD')
     plt.ylim(0, ylim)
