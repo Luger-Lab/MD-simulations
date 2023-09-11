@@ -1,0 +1,14 @@
+#load forcefield parameters
+addPath /pl/active/LugerLab-EM/software/amber22/amber22/dat/SIRAH
+source leaprc.sirah
+
+NAME=''
+
+unit = loadpdb ${NAME}.pdb 
+#'loadpbd' fills in missing H atoms, and missing heavy atoms
+
+#save neutralized PDB
+saveAmberParmNetcdf unit ../${NAME}.prmtop ../${NAME}.nc
+
+quit
+
