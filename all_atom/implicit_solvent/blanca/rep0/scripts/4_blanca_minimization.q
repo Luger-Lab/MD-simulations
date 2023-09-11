@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --partition=blanca-biokem
-#SBATCH --qos=blanca-biokem 
+#SBATCH --partition=blanca
+#SBATCH --qos=blanca
 #SBATCH --account=blanca-biokem
 #SBATCH --job-name=minimization
 #SBATCH --nodes=1
