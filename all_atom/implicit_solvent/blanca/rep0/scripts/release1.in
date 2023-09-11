@@ -1,0 +1,15 @@
+Release 1
+ &cntrl
+  ig=-1,imin=0,irest=1,ntx=5,nstlim=25000,dt=0.004,
+  ntwx=2500,ioutfm=1,ntpr=2500,ntwr=2500,
+  ntt=3,gamma_ln=3.0,temp0=300.0,
+  ntb=2,iwrap=1,ntp=1,barostat=2,pres0=1.01325,taup=3.0,
+  ntc=2,ntf=2,cut=10.0
+  ntr=1,restraint_wt=10.0,restraintmask="(!:WAT,Na+,Cl-,NA,CL,K+,K)&(!(@H=))",
+  nmropt=0,
+ /
+
+ &ewald
+  vdwmeth=1,order=4,dsum_tol=0.000001,eedmeth=1,
+ /
+
