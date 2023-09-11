@@ -7,10 +7,10 @@ unit = loadpdb <name>.pdb
 #'loadpbd' fills in missing H atoms, and missing heavy atoms
 
 #add counter-ions
+addions unit Cl- 0
 addions unit K+ 0
 
 #save neutralized PDB
 savepdb unit <name>_neutralized.pdb
 
 quit
-

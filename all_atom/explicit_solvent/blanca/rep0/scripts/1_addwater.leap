@@ -10,4 +10,3 @@ unit = loadpdb <name>_neutralized.pdb
 solvatebox unit TIP3PBOX 25.0
 
 quit
-
