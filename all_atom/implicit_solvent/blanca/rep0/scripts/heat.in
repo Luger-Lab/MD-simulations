@@ -1,13 +1,38 @@
-Heat
+heating with backbone restraints
  &cntrl
-  ig=-1,imin=0,irest=0,ntx=1,nstlim=12500,dt=0.004,
-  ntwx=2500,ioutfm=1,ntpr=2500,ntwr=2500,
-  ntt=3,gamma_ln=3.0,tempi=10.0,temp0=300.0,
-  ntc=2,ntf=2,cut=10.0,
-  ntr=1,restraint_wt=10.0,restraintmask="(!:WAT,Na+,Cl-,K+,K,NA,CL)&!(@H=)",
-  ntb=1,iwrap=1,
-  nmropt=0,
- /
- 
- &wt type='END',
- /
+   ntx = 1,                             
+   ntwx = 5000, 
+   ntwe = 0, 
+   ntwr = 500,     
+   ntpr = 5000,                 
+   ioutfm=0, 
+   ntxo=1,                      
+   imin = 0,
+   nstlim = 500000, 
+   dt = 0.002, 
+   ntt = 3,
+   gamma_ln=1.,
+   temp0 = 100.0,   
+   nscm = 1000,
+   ig = -1,                  
+   ntc= 2, 
+   ntf = 2, 
+   cut = 1000,           
+   igb=8,
+   gbsa=3,
+   surften=0.007,
+   ntb = 0, 
+   saltcon=0., 
+   ntr=1,
+   restraintmask="@CA,N,C,O",     
+   restraint_wt=10.0,  
+   nmropt=1,                              
+ &end
+ &wt
+   TYPE="TEMP0", istep1=0, istep2=500000, 
+   value1=100., value2=300.,              
+ &end
+ &wt
+   TYPE="END",
+ &end
+

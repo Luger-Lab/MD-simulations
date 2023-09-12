@@ -7,12 +7,12 @@ source leaprc.lipid21
 source leaprc.gaff2
 source leaprc.water.tip4pew
 
-unit = loadpdb <name>.pdb
+unit = loadpdb bd0055_rna_amber.pdb
 #'loadpbd' fills in missing H atoms, and missing heavy atoms
 
 #add water box 
 set default pbradii mbondi3
 
-saveamberparm unit nhmrp_<name>.prmtop ../<name>.inpcrd
+saveamberparm unit nhmrp_bd0055_rna.prmtop ../bd0055_rna.inpcrd
 
 quit

@@ -1,0 +1,9 @@
+# Log started on 09/11/2023 [mm/dd/yyyy] at 12:26:45
+# Command line arguments: -p nhmrp_bd0055_rna.prmtop
+# Loaded topologies: nhmrp_bd0055_rna.prmtop
+HMassRepartition
+outparm nhmrp_bd0055_rna.prmtop ../bd0055_rna.prmtop
+ls
+ls ..
+outparm ../bd0055_rna.prmtop
+quit

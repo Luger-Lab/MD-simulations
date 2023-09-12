@@ -1,0 +1,499 @@
+reduce: version 3.3 06/02/2016, Copyright 1997-2016, J. Michael Word
+Processing file: --standard input--
+Database of HETATM connections: "/pl/active/LugerLab-EM/software/amber22/amber22//dat/reduce_wwPDB_het_dict.txt"
+VDW dot density = 16/A^2
+Orientation penalty scale = 9999 (999900%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Building His ring NH Hydrogens.
+Flipping Asn, Gln and His groups.
+For each flip state, bumps where gap is more than 0.4A are indicated with '!'.
+Building or keeping OH & SH Hydrogens.
+Rotating existing OH & SH Hydrogens
+Rotating NH3 Hydrogens.
+Not processing Met methyls.
+ Singles(size 395): B   1 C   O2' : B   1 C   O5' : B   2 A   O2' : B   3 A   O2' 
+  : B   4 A   O2' : B   5 A   O2' : B   6 A   O2' : B   7 A   O2' : B   8 C   O2' 
+  : B   9 C   O2' : B  10 C   O2' : B  11 C   O2' : B  12 U   O2' : B  13 C   O2' 
+  : B  14 A   O2' : B  15 A   O2' : B  16 G   O2' : B  17 A   O2' : B  18 C   O2' 
+  : B  19 C   O2' : B  20 C   O2' : B  21 G   O2' : B  22 U   O2' : B  23 U   O2' 
+  : B  24 U   O2' : B  25 A   O2' : B  26 G   O2' : B  27 A   O2' : B  28 G   O2' 
+  : B  29 G   O2' : B  30 C   O2' : B  31 C   O2' : B  32 C   O2' : B  33 C   O2' 
+  : B  34 A   O2' : B  35 A   O2' : B  36 G   O2' : B  37 G   O2' : B  38 G   O2' 
+  : B  39 G   O2' : B  40 U   O2' : B  41 U   O2' : B  42 A   O2' : B  43 U   O2' 
+  : B  44 G   O2' : B  45 C   O2' : B  46 U   O2' : B  47 A   O2' : B  48 G   O2' 
+  : B  49 U   O2' : B  50 U   O2' : B  51 A   O2' : B  52 U   O2' : B  53 U   O2' 
+  : B  54 G   O2' : B  55 C   O2' : B  56 U   O2' : B  57 C   O2' : B  58 A   O2' 
+  : B  59 G   O2' : B  60 C   O2' : B  61 G   O2' : B  62 G   O2' : B  63 U   O2' 
+  : B  64 G   O2' : B  65 G   O2' : B  66 C   O2' : B  67 A   O2' : B  68 G   O2' 
+  : B  69 C   O2' : B  70 A   O2' : B  71 G   O2' : B  72 C   O2' : B  73 C   O2' 
+  : B  74 A   O2' : B  75 A   O2' : B  76 C   O2' : B  77 U   O2' : B  78 C   O2' 
+  : B  79 A   O2' : B  80 G   O2' : B  81 C   O2' : B  82 U   O2' : B  83 U   O2' 
+  : B  84 C   O2' : B  85 C   O2' : B  86 U   O2' : B  87 U   O2' : B  88 U   O2' 
+  : B  89 C   O2' : B  90 G   O2' : B  91 G   O2' : B  92 G   O2' : B  93 C   O2' 
+  : B  94 U   O2' : B  95 U   O2' : B  96 U   O2' : B  97 G   O2' : B  98 U   O2' 
+  : B  99 U   O2' : B 100 A   O2' : B 101 G   O2' : B 102 C   O2' : B 103 A   O2' 
+  : B 104 G   O2' : B 105 C   O2' : B 106 G   O2' : B 107 G   O2' : B 108 A   O2' 
+  : B 109 U   O2' : B 110 C   O2' : B 111 C   O2' : B 112 U   O2' : B 113 U   O2' 
+  : B 114 A   O2' : B 115 C   O2' : B 116 A   O2' : B 117 G   O2' : B 118 A   O2' 
+  : B 119 U   O2' : B 120 G   O2' : B 121 G   O2' : B 122 U   O2' : B 123 C   O2' 
+  : B 124 G   O2' : B 125 A   O2' : B 126 U   O2' : B 127 G   O2' : B 128 A   O2' 
+  : B 129 C   O2' : B 130 G   O2' : B 131 A   O2' : B 132 U   O2' : B 133 G   O2' 
+  : B 134 U   O2' : B 135 C   O2' : B 136 A   O2' : B 137 C   O2' : B 138 G   O2' 
+  : B 139 A   O2' : B 140 G   O2' : B 141 C   O2' : B 142 C   O2' : B 143 A   O2' 
+  : B 144 U   O2' : B 145 U   O2' : B 146 A   O2' : B 147 C   O2' : B 148 U   O2' 
+  : B 149 G   O2' : B 150 U   O2' : B 151 U   O2' : B 152 U   O2' : B 153 U   O2' 
+  : B 154 A   O2' : B 155 C   O2' : B 156 G   O2' : B 157 G   O2' : B 158 C   O2' 
+  : B 159 C   O2' : B 160 G   O2' : B 161 U   O2' : B 162 C   O2' : B 163 A   O2' 
+  : B 164 G   O2' : B 165 C   O2' : B 166 U   O2' : B 167 U   O2' : B 168 U   O2' 
+  : B 169 U   O2' : B 170 G   O2' : B 171 C   O2' : B 172 A   O2' : B 173 C   O2' 
+  : B 174 U   O2' : B 175 U   O2' : B 176 U   O2' : B 177 C   O2' : B 178 G   O2' 
+  : B 179 A   O2' : B 180 C   O2' : B 181 G   O2' : B 182 C   O2' : B 183 C   O2' 
+  : B 184 C   O2' : B 185 U   O2' : B 186 U   O2' : B 187 C   O2' : B 188 A   O2' 
+  : B 189 A   O2' : B 190 G   O2' : B 191 C   O2' : B 192 A   O2' : B 193 U   O2' 
+  : B 194 A   O2' : B 195 A   O2' : B 196 U   O2' : B 197 U   O2' : B 198 G   O2' 
+  : B 199 U   O2' : B 200 U   O2' : B 201 C   O2' : B 202 G   O2' : B 203 A   O2' 
+  : B 204 U   O2' : B 205 G   O2' : B 206 G   O2' : B 207 C   O2' : B 208 C   O2' 
+  : B 209 U   O2' : B 210 U   O2' : B 211 G   O2' : B 212 G   O2' : B 213 A   O2' 
+  : B 214 C   O2' : B 215 A   O2' : B 216 A   O2' : B 217 U   O2' : B 218 A   O2' 
+  : B 219 C   O2' : B 220 G   O2' : B 221 U   O2' : B 222 C   O2' : B 223 G   O2' 
+  : B 224 A   O2' : B 225 U   O2' : B 226 G   O2' : B 227 G   O2' : B 228 U   O2' 
+  : B 229 U   O2' : B 230 U   O2' : B 231 C   O2' : B 232 U   O2' : B 233 G   O2' 
+  : B 234 C   O2' : B 235 U   O2' : B 236 G   O2' : B 237 A   O2' : B 238 G   O2' 
+  : B 239 G   O2' : B 240 U   O2' : B 241 G   O2' : B 242 U   O2' : B 243 U   O2' 
+  : B 244 C   O2' : B 245 A   O2' : B 246 U   O2' : B 247 U   O2' : B 248 U   O2' 
+  : B 249 G   O2' : B 250 C   O2' : B 251 C   O2' : B 252 C   O2' : B 253 C   O2' 
+  : B 254 U   O2' : B 255 U   O2' : B 256 C   O2' : B 257 U   O2' : B 258 C   O2' 
+  : B 259 C   O2' : B 260 U   O2' : B 261 U   O2' : B 262 A   O2' : B 263 A   O2' 
+  : B 264 U   O2' : B 265 C   O2' : B 266 A   O2' : B 267 G   O2' : B 268 C   O2' 
+  : B 269 U   O2' : B 270 U   O2' : B 271 U   O2' : B 272 U   O2' : B 273 U   O2' 
+  : B 274 G   O2' : B 275 A   O2' : B 276 C   O2' : B 277 C   O2' : B 278 U   O2' 
+  : B 279 U   O2' : B 280 A   O2' : B 281 G   O2' : B 282 A   O2' : B 283 U   O2' 
+  : B 284 G   O2' : B 285 U   O2' : B 286 A   O2' : B 287 A   O2' : B 288 C   O2' 
+  : B 289 U   O2' : B 290 A   O2' : B 291 C   O2' : B 292 C   O2' : B 293 A   O2' 
+  : B 294 A   O2' : B 295 A   O2' : B 296 A   O2' : B 297 C   O2' : B 298 U   O2' 
+  : B 299 U   O2' : B 300 C   O2' : B 301 A   O2' : B 302 G   O2' : B 303 C   O2' 
+  : B 304 C   O2' : B 305 A   O2' : B 306 U   O2' : B 307 G   O2' : B 308 G   O2' 
+  : B 309 U   O2' : B 310 A   O2' : B 311 U   O2' : B 312 A   O2' : B 313 U   O2' 
+  : B 314 C   O2' : B 315 U   O2' : B 316 C   O2' : B 317 C   O2' : B 318 U   O2' 
+  : B 319 U   O2' : B 320 C   O2' : B 321 U   O2' : B 322 U   O2' : B 323 A   O2' 
+  : B 324 A   O2' : B 325 A   O2' : B 326 G   O2' : B 327 U   O2' : B 328 U   O2' 
+  : B 329 A   O2' : B 330 A   O2' : B 331 A   O2' : B 332 C   O2' : B 333 A   O2' 
+  : B 334 A   O2' : B 335 A   O2' : B 336 A   O2' : B 337 U   O2' : B 338 U   O2' 
+  : B 339 A   O2' : B 340 U   O2' : B 341 U   O2' : B 342 U   O2' : B 343 C   O2' 
+  : B 344 U   O2' : B 345 A   O2' : B 346 G   O2' : B 347 A   O2' : B 348 G   O2' 
+  : B 349 G   O2' : B 350 G   O2' : B 351 G   O2' : B 352 A   O2' : B 353 A   O2' 
+  : B 354 U   O2' : B 355 U   O2' : B 356 G   O2' : B 357 U   O2' : B 358 U   O2' 
+  : B 359 A   O2' : B 360 U   O2' : B 361 C   O2' : B 362 C   O2' : B 363 G   O2' 
+  : B 364 C   O2' : B 365 U   O2' : B 366 C   O2' : B 367 A   O2' : B 368 C   O2' 
+  : B 369 A   O2' : B 370 A   O2' : B 371 U   O2' : B 372 U   O2' : B 373 C   O2' 
+  : B 374 C   O2' : B 375 C   O2' : B 376 C   O2' : B 377 U   O2' : B 378 A   O2' 
+  : B 379 U   O2' : B 380 A   O2' : B 381 G   O2' : B 382 U   O2' : B 383 G   O2' 
+  : B 384 A   O2' : B 385 G   O2' : B 386 U   O2' : B 387 C   O2' : B 388 G   O2' 
+  : B 389 U   O2' : B 390 A   O2' : B 391 U   O2' : B 392 U   O2' : B 393 A   O2' 
+  : B 393 A   O3' 
+ orientation 3: B   1 C   O2' :   rot  -13: bump=-0.035, HB=0.117, total=0.082
+ orientation 1: B   1 C   O5' :   rot  180: bump=-0.082, HB=0.000, total=-0.082
+ orientation 1: B   2 A   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B   3 A   O2' :   rot  180: bump=-0.036, HB=0.000, total=-0.036
+ orientation 3: B   4 A   O2' :   rot  -10: bump=-0.016, HB=0.110, total=0.094
+ orientation 1: B   5 A   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B   6 A   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B   7 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B   8 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B   9 C   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B  10 C   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 3: B  11 C   O2' :   rot  -10: bump=-0.013, HB=0.101, total=0.087
+ orientation 1: B  12 U   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 3: B  13 C   O2' :   rot  -11: bump=-0.016, HB=0.107, total=0.091
+ orientation 1: B  14 A   O2' :   rot  180: bump=-0.036, HB=0.000, total=-0.036
+ orientation 1: B  15 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  16 G   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B  17 A   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B  18 C   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B  19 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B  20 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  21 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  22 U   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B  23 U   O2' :   rot  -13: bump=-0.035, HB=0.101, total=0.067
+ orientation 1: B  24 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B  25 A   O2' :   rot  180: bump=-0.036, HB=0.000, total=-0.036
+ orientation 1: B  26 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  27 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B  28 G   O2' :   rot  -11: bump=-0.014, HB=0.109, total=0.094
+ orientation 1: B  29 G   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 3: B  30 C   O2' :   rot  -11: bump=-0.013, HB=0.102, total=0.089
+ orientation 1: B  31 C   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B  32 C   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 3: B  33 C   O2' :   rot  -11: bump=-0.017, HB=0.120, total=0.104
+ orientation 1: B  34 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B  35 A   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B  36 G   O2' :   rot  180: bump=-0.037, HB=0.000, total=-0.037
+ orientation 1: B  37 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  38 G   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B  39 G   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B  40 U   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B  41 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B  42 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  43 U   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B  44 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  45 C   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B  46 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B  47 A   O2' :   rot  180: bump=-0.036, HB=0.000, total=-0.036
+ orientation 1: B  48 G   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 3: B  49 U   O2' :   rot  -11: bump=-0.016, HB=0.103, total=0.087
+ orientation 3: B  50 U   O2' :   rot  -11: bump=-0.012, HB=0.114, total=0.101
+ orientation 1: B  51 A   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B  52 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 3: B  53 U   O2' :   rot  -11: bump=-0.021, HB=0.118, total=0.097
+ orientation 1: B  54 G   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B  55 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  56 U   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B  57 C   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B  58 A   O2' :   rot  180: bump=-0.035, HB=0.000, total=-0.035
+ orientation 1: B  59 G   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 3: B  60 C   O2' :   rot  -11: bump=-0.016, HB=0.106, total=0.090
+ orientation 1: B  61 G   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 3: B  62 G   O2' :   rot  -12: bump=-0.022, HB=0.136, total=0.114
+ orientation 1: B  63 U   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B  64 G   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B  65 G   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B  66 C   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B  67 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  68 G   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B  69 C   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B  70 A   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B  71 G   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B  72 C   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 3: B  73 C   O2' :   rot  -12: bump=-0.022, HB=0.139, total=0.117
+ orientation 3: B  74 A   O2' :   rot  -12: bump=-0.026, HB=0.114, total=0.088
+ orientation 1: B  75 A   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 3: B  76 C   O2' :   rot  -11: bump=-0.014, HB=0.103, total=0.089
+ orientation 1: B  77 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B  78 C   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B  79 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B  80 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  81 C   O2' :   rot  180: bump=-0.035, HB=0.000, total=-0.035
+ orientation 1: B  82 U   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 3: B  83 U   O2' :   rot  -12: bump=-0.019, HB=0.126, total=0.107
+ orientation 1: B  84 C   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 3: B  85 C   O2' :   rot  -11: bump=-0.015, HB=0.091, total=0.076
+ orientation 3: B  86 U   O2' :   rot  -13: bump=-0.034, HB=0.115, total=0.081
+ orientation 1: B  87 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B  88 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B  89 C   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 3: B  90 G   O2' :   rot  -13: bump=-0.036, HB=0.112, total=0.077
+ orientation 1: B  91 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  92 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B  93 C   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B  94 U   O2' :   rot  180: bump=-0.025, HB=0.000, total=-0.025
+ orientation 1: B  95 U   O2' :   rot  180: bump=-0.025, HB=0.000, total=-0.025
+ orientation 3: B  96 U   O2' :   rot  -11: bump=-0.017, HB=0.095, total=0.078
+ orientation 1: B  97 G   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B  98 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 3: B  99 U   O2' :   rot  -10: bump=-0.016, HB=0.128, total=0.112
+ orientation 3: B 100 A   O2' :   rot  -11: bump=-0.014, HB=0.119, total=0.104
+ orientation 3: B 101 G   O2' :   rot  -10: bump=-0.015, HB=0.078, total=0.063
+ orientation 3: B 102 C   O2' :   rot  -10: bump=-0.016, HB=0.103, total=0.087
+ orientation 1: B 103 A   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B 104 G   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 105 C   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 106 G   O2' :   rot  180: bump=-0.024, HB=0.000, total=-0.024
+ orientation 1: B 107 G   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 108 A   O2' :   rot  180: bump=-0.035, HB=0.000, total=-0.035
+ orientation 3: B 109 U   O2' :   rot  -11: bump=-0.014, HB=0.113, total=0.099
+ orientation 3: B 110 C   O2' :   rot  -11: bump=-0.020, HB=0.131, total=0.111
+ orientation 3: B 111 C   O2' :   rot  -11: bump=-0.015, HB=0.121, total=0.106
+ orientation 3: B 112 U   O2' :   rot  -10: bump=-0.016, HB=0.081, total=0.065
+ orientation 1: B 113 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 114 A   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 3: B 115 C   O2' :   rot  -11: bump=-0.014, HB=0.096, total=0.081
+ orientation 1: B 116 A   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 117 G   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 118 A   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 119 U   O2' :   rot  180: bump=-0.036, HB=0.000, total=-0.036
+ orientation 1: B 120 G   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 121 G   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 122 U   O2' :   rot  180: bump=-0.035, HB=0.000, total=-0.035
+ orientation 3: B 123 C   O2' :   rot  -10: bump=-0.016, HB=0.085, total=0.069
+ orientation 1: B 124 G   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 125 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 126 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 127 G   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B 128 A   O2' :   rot  -10: bump=-0.012, HB=0.097, total=0.085
+ orientation 1: B 129 C   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 130 G   O2' :   rot  180: bump=-0.035, HB=0.000, total=-0.035
+ orientation 1: B 131 A   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 132 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 3: B 133 G   O2' :   rot  -11: bump=-0.016, HB=0.126, total=0.110
+ orientation 1: B 134 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 135 C   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 136 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 137 C   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 138 G   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 139 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 140 G   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 141 C   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B 142 C   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 143 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 144 U   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 145 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 146 A   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 147 C   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B 148 U   O2' :   rot  -11: bump=-0.013, HB=0.096, total=0.083
+ orientation 3: B 149 G   O2' :   rot  -11: bump=-0.016, HB=0.104, total=0.088
+ orientation 1: B 150 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 3: B 151 U   O2' :   rot  -11: bump=-0.014, HB=0.112, total=0.098
+ orientation 1: B 152 U   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 153 U   O2' :   rot  180: bump=-0.025, HB=0.000, total=-0.025
+ orientation 1: B 154 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 155 C   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B 156 G   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 157 G   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 158 C   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 159 C   O2' :   rot  180: bump=-0.025, HB=0.000, total=-0.025
+ orientation 1: B 160 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 161 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 162 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 163 A   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 164 G   O2' :   rot  180: bump=-0.024, HB=0.000, total=-0.024
+ orientation 1: B 165 C   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 166 U   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 167 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 168 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 169 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 170 G   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 171 C   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 172 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 173 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 174 U   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 175 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 176 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 177 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 178 G   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 179 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 180 C   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 181 G   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 182 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 183 C   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 184 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 185 U   O2' :   rot  -11: bump=-0.016, HB=0.105, total=0.089
+ orientation 3: B 186 U   O2' :   rot  -10: bump=-0.014, HB=0.096, total=0.082
+ orientation 1: B 187 C   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 3: B 188 A   O2' :   rot  -10: bump=-0.014, HB=0.114, total=0.100
+ orientation 1: B 189 A   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 190 G   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 191 C   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 192 A   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 193 U   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 3: B 194 A   O2' :   rot  -11: bump=-0.018, HB=0.102, total=0.084
+ orientation 1: B 195 A   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 3: B 196 U   O2' :   rot  -11: bump=-0.017, HB=0.108, total=0.092
+ orientation 1: B 197 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 198 G   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 199 U   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 200 U   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 201 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 3: B 202 G   O2' :   rot  -10: bump=-0.012, HB=0.106, total=0.094
+ orientation 1: B 203 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 204 U   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 205 G   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 206 G   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 207 C   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 208 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 209 U   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 210 U   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 211 G   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 212 G   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 213 A   O2' :   rot  180: bump=-0.024, HB=0.000, total=-0.024
+ orientation 1: B 214 C   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B 215 A   O2' :   rot  -11: bump=-0.017, HB=0.093, total=0.076
+ orientation 1: B 216 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 217 U   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 3: B 218 A   O2' :   rot  -11: bump=-0.018, HB=0.113, total=0.095
+ orientation 1: B 219 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 3: B 220 G   O2' :   rot  -11: bump=-0.013, HB=0.133, total=0.120
+ orientation 1: B 221 U   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 3: B 222 C   O2' :   rot  -11: bump=-0.014, HB=0.102, total=0.088
+ orientation 1: B 223 G   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 224 A   O2' :   rot  180: bump=-0.023, HB=0.000, total=-0.023
+ orientation 1: B 225 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 226 G   O2' :   rot  180: bump=-0.036, HB=0.000, total=-0.036
+ orientation 1: B 227 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 228 U   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 229 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 3: B 230 U   O2' :   rot  -10: bump=-0.016, HB=0.104, total=0.087
+ orientation 1: B 231 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 232 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 233 G   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B 234 C   O2' :   rot  -14: bump=-0.048, HB=0.121, total=0.073
+ orientation 1: B 235 U   O2' :   rot  180: bump=-0.023, HB=0.000, total=-0.023
+ orientation 1: B 236 G   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 237 A   O2' :   rot  180: bump=-0.038, HB=0.000, total=-0.038
+ orientation 1: B 238 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 239 G   O2' :   rot  -10: bump=-0.015, HB=0.115, total=0.100
+ orientation 1: B 240 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 241 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 242 U   O2' :   rot  -12: bump=-0.022, HB=0.138, total=0.116
+ orientation 3: B 243 U   O2' :   rot  -10: bump=-0.012, HB=0.093, total=0.081
+ orientation 1: B 244 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 245 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 3: B 246 U   O2' :   rot  -10: bump=-0.012, HB=0.118, total=0.106
+ orientation 3: B 247 U   O2' :   rot  -10: bump=-0.016, HB=0.117, total=0.100
+ orientation 1: B 248 U   O2' :   rot  180: bump=-0.037, HB=0.000, total=-0.037
+ orientation 1: B 249 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 250 C   O2' :   rot  -10: bump=-0.016, HB=0.117, total=0.101
+ orientation 1: B 251 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 252 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 253 C   O2' :   rot  -12: bump=-0.024, HB=0.138, total=0.114
+ orientation 1: B 254 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 255 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B 256 C   O2' :   rot  -10: bump=-0.017, HB=0.091, total=0.074
+ orientation 1: B 257 U   O2' :   rot  180: bump=-0.025, HB=0.000, total=-0.025
+ orientation 3: B 258 C   O2' :   rot  -10: bump=-0.016, HB=0.118, total=0.102
+ orientation 1: B 259 C   O2' :   rot  180: bump=-0.037, HB=0.000, total=-0.037
+ orientation 3: B 260 U   O2' :   rot  -11: bump=-0.015, HB=0.118, total=0.103
+ orientation 1: B 261 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 262 A   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 3: B 263 A   O2' :   rot  -11: bump=-0.017, HB=0.113, total=0.096
+ orientation 1: B 264 U   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 3: B 265 C   O2' :   rot  -10: bump=-0.012, HB=0.094, total=0.081
+ orientation 3: B 266 A   O2' :   rot  -11: bump=-0.015, HB=0.114, total=0.099
+ orientation 1: B 267 G   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 3: B 268 C   O2' :   rot  -10: bump=-0.013, HB=0.113, total=0.100
+ orientation 3: B 269 U   O2' :   rot  -10: bump=-0.016, HB=0.121, total=0.105
+ orientation 3: B 270 U   O2' :   rot  -11: bump=-0.016, HB=0.088, total=0.072
+ orientation 1: B 271 U   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 3: B 272 U   O2' :   rot  -10: bump=-0.017, HB=0.124, total=0.107
+ orientation 1: B 273 U   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 274 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 275 A   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 276 C   O2' :   rot  180: bump=-0.025, HB=0.000, total=-0.025
+ orientation 1: B 277 C   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 278 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 279 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 3: B 280 A   O2' :   rot  -10: bump=-0.017, HB=0.123, total=0.107
+ orientation 1: B 281 G   O2' :   rot  180: bump=-0.037, HB=0.000, total=-0.037
+ orientation 1: B 282 A   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 283 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 284 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 285 U   O2' :   rot  -11: bump=-0.018, HB=0.117, total=0.099
+ orientation 1: B 286 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 287 A   O2' :   rot  180: bump=-0.025, HB=0.000, total=-0.025
+ orientation 1: B 288 C   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B 289 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 290 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 3: B 291 C   O2' :   rot  -10: bump=-0.017, HB=0.124, total=0.107
+ orientation 1: B 292 C   O2' :   rot  180: bump=-0.035, HB=0.000, total=-0.035
+ orientation 1: B 293 A   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 294 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 295 A   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 296 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 297 C   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 298 U   O2' :   rot  180: bump=-0.024, HB=0.000, total=-0.024
+ orientation 1: B 299 U   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B 300 C   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 301 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B 302 G   O2' :   rot  -10: bump=-0.017, HB=0.127, total=0.110
+ orientation 1: B 303 C   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B 304 C   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 305 A   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 306 U   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 307 G   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B 308 G   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 309 U   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 310 A   O2' :   rot  180: bump=-0.035, HB=0.000, total=-0.035
+ orientation 1: B 311 U   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 312 A   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 313 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 314 C   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 315 U   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 316 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 317 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 318 U   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 319 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 320 C   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 321 U   O2' :   rot  180: bump=-0.037, HB=0.000, total=-0.037
+ orientation 1: B 322 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 323 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B 324 A   O2' :   rot  -10: bump=-0.015, HB=0.105, total=0.090
+ orientation 3: B 325 A   O2' :   rot  -11: bump=-0.016, HB=0.102, total=0.086
+ orientation 1: B 326 G   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 327 U   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 328 U   O2' :   rot  -12: bump=-0.024, HB=0.124, total=0.099
+ orientation 1: B 329 A   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B 330 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 331 A   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 332 C   O2' :   rot  180: bump=-0.037, HB=0.000, total=-0.037
+ orientation 1: B 333 A   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 334 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B 335 A   O2' :   rot  -11: bump=-0.015, HB=0.107, total=0.091
+ orientation 1: B 336 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 337 U   O2' :   rot  -11: bump=-0.012, HB=0.100, total=0.088
+ orientation 3: B 338 U   O2' :   rot  -10: bump=-0.016, HB=0.136, total=0.120
+ orientation 1: B 339 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 340 U   O2' :   rot  180: bump=-0.035, HB=0.000, total=-0.035
+ orientation 1: B 341 U   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 342 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 343 C   O2' :   rot  180: bump=-0.039, HB=0.000, total=-0.039
+ orientation 1: B 344 U   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 345 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 346 G   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 347 A   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 348 G   O2' :   rot  -11: bump=-0.013, HB=0.102, total=0.089
+ orientation 1: B 349 G   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 350 G   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 351 G   O2' :   rot  -11: bump=-0.016, HB=0.120, total=0.104
+ orientation 1: B 352 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 3: B 353 A   O2' :   rot  -10: bump=-0.016, HB=0.095, total=0.079
+ orientation 1: B 354 U   O2' :   rot  180: bump=-0.037, HB=0.000, total=-0.037
+ orientation 1: B 355 U   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 3: B 356 G   O2' :   rot  -11: bump=-0.016, HB=0.100, total=0.084
+ orientation 1: B 357 U   O2' :   rot  180: bump=-0.026, HB=0.000, total=-0.026
+ orientation 1: B 358 U   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 359 A   O2' :   rot  -11: bump=-0.014, HB=0.104, total=0.090
+ orientation 1: B 360 U   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 361 C   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 362 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 3: B 363 G   O2' :   rot  -12: bump=-0.023, HB=0.107, total=0.084
+ orientation 1: B 364 C   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 365 U   O2' :   rot  180: bump=-0.036, HB=0.000, total=-0.036
+ orientation 1: B 366 C   O2' :   rot  180: bump=-0.032, HB=0.000, total=-0.032
+ orientation 1: B 367 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 368 C   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 3: B 369 A   O2' :   rot  -13: bump=-0.033, HB=0.136, total=0.104
+ orientation 1: B 370 A   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 3: B 371 U   O2' :   rot  -11: bump=-0.020, HB=0.118, total=0.098
+ orientation 1: B 372 U   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 373 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 374 C   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 375 C   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 376 C   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 3: B 377 U   O2' :   rot  -10: bump=-0.015, HB=0.093, total=0.078
+ orientation 1: B 378 A   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 1: B 379 U   O2' :   rot  180: bump=-0.025, HB=0.000, total=-0.025
+ orientation 1: B 380 A   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 381 G   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 382 U   O2' :   rot  180: bump=-0.033, HB=0.000, total=-0.033
+ orientation 1: B 383 G   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 384 A   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 385 G   O2' :   rot  180: bump=-0.031, HB=0.000, total=-0.031
+ orientation 1: B 386 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 387 C   O2' :   rot  180: bump=-0.034, HB=0.000, total=-0.034
+ orientation 1: B 388 G   O2' :   rot  180: bump=-0.035, HB=0.000, total=-0.035
+ orientation 1: B 389 U   O2' :   rot  180: bump=-0.029, HB=0.000, total=-0.029
+ orientation 1: B 390 A   O2' :   rot  180: bump=-0.027, HB=0.000, total=-0.027
+ orientation 1: B 391 U   O2' :   rot  180: bump=-0.028, HB=0.000, total=-0.028
+ orientation 1: B 392 U   O2' :   rot  180: bump=-0.030, HB=0.000, total=-0.030
+ orientation 3: B 393 A   O2' :   rot  -21: bump=0.000, HB=0.151, total=0.151
+ orientation 1: B 393 A   O3' :   rot  180: bump=0.000, HB=0.120, total=0.120
+Found 0 hydrogens (0 hets)
+Standardized 0 hydrogens (0 hets)
+Added 4203 hydrogens (0 hets)
+Removed 0 hydrogens (0 hets)
+Adjusted 395 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu
