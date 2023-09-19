@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --partition=blanca-biokem
-#SBATCH --qos=blanca-biokem 
+#SBATCH --partition=blanca
+#SBATCH --qos=preemptable 
 #SBATCH --account=blanca-biokem
 #SBATCH --job-name=md_sim_50ns
 #SBATCH --nodes=1

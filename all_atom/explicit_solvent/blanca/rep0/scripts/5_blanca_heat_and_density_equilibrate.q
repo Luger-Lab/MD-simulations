@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --partition=blanca-biokem
-#SBATCH --qos=blanca-biokem 
+#SBATCH --partition=blanca
+#SBATCH --qos=preemptable 
 #SBATCH --account=blanca-biokem
 #SBATCH --job-name=md_heat_and_eq
 #SBATCH --nodes=1
