@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import os,sys
 import argparse
 import numpy as np
