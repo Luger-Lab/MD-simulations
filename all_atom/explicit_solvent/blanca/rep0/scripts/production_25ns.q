@@ -31,7 +31,7 @@ then
   sleep 30
 
   (cd ../analysis && sbatch 0_blanca_strip_and_image.q)
-  (cd ../analysis && sbatch 1_blanca_rmsd_rna.q)
+  (cd ../analysis && sbatch 1_blanca_rmsd.q)
 
   echo $TIME_STEP >> step.txt
 
