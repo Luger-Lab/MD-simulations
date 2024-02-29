@@ -6,7 +6,7 @@
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:1
 #SBATCH --ntasks=1
-#SBATCH --mem=128gb
+#SBATCH --mem=40gb
 #SBATCH --time=24:00:00
 #SBATCH --output=/home/%u/slurmfiles_out/slurm_%j.out
 #SBATCH --error=/home/%u/slurmfiles_err/slurm_%j.err
@@ -68,3 +68,4 @@ pmemd.cuda -O -i release5.in \
               -inf ../mdinfo/${NAME}_release5.mdinfo \
               -ref ../restarts/${NAME}_release4.rst
 
+sbatch 6_production_25ns.q

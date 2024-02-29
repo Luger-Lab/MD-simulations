@@ -2,11 +2,11 @@
 #SBATCH --partition=blanca
 #SBATCH --qos=preemptable 
 #SBATCH --account=blanca-biokem
-#SBATCH --job-name=md_sim_50ns
+#SBATCH --job-name=rep0
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:1
 #SBATCH --ntasks=1
-#SBATCH --mem=128gb
+#SBATCH --mem=32gb
 #SBATCH --time=24:00:00
 #SBATCH --output=/home/%u/slurmfiles_out/slurm_%j.out
 #SBATCH --error=/home/%u/slurmfiles_err/slurm_%j.err
@@ -22,12 +22,8 @@ pmemd.cuda -O -i 25ns_4fs_per_step.in \
               -x ../trajectories/${NAME}_25ns.nc \
               -inf ../mdinfo/${NAME}_25ns.mdinfo
 
+sleep 30
 
-pmemd.cuda -O -i 25ns_4fs_per_step.in \
-              -o ../outputs/${NAME}_50ns.out \
-              -p ../${NAME}_buffer.prmtop \
-              -c ../restarts/${NAME}_25ns.rst \
-              -r ../restarts/${NAME}_50ns.rst \
-              -x ../trajectories/${NAME}_50ns.nc \
-              -inf ../mdinfo/${NAME}_50ns.mdinfo 
+echo 25 >> step.txt
 
+sbatch production_25ns.q
