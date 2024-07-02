@@ -4,13 +4,13 @@
 #SBATCH --account=blanca-biokem
 #SBATCH --job-name=minimization
 #SBATCH --nodes=1
-#SBATCH --ntasks=50
-#SBATCH --mem=128gb
+#SBATCH --ntasks=8
+#SBATCH --mem=40gb
 #SBATCH --time=24:00:00
 #SBATCH --output=/home/%u/slurmfiles_out/slurm_%j.out
 #SBATCH --error=/home/%u/slurmfiles_err/slurm_%j.err
 
-module load amber/v22
+source /programs/sbgrid.shrc
 NAME=''
 
 #run the first minimization

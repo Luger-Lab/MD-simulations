@@ -5,15 +5,14 @@
 #SBATCH --job-name=equilibrate
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:1
-#SBATCH --constraint=A100|A40
-#SBATCH --ntasks=1
-#SBATCH --mem=128gb
+#SBATCH --ntasks=2
+#SBATCH --mem=32gb
 #SBATCH --time=24:00:00
 #SBATCH --output=/home/%u/slurmfiles_out/slurm_%j.out
 #SBATCH --error=/home/%u/slurmfiles_err/slurm_%j.err
 
-module load amber/20
-NAME='bac_40_2x_CG'
+source /programs/sbgrid.shrc
+NAME=''
 
 pmemd.cuda -O -i gpu_in/eq_GB.in \
               -o ../outputs/${NAME}_eq.out \
