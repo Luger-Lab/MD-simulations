@@ -1,16 +1,16 @@
 #!/bin/bash
-#SBATCH --partition=blanca-biokem
-#SBATCH --qos=blanca-biokem
+#SBATCH --partition=blanca
+#SBATCH --qos=preemptable
 #SBATCH --account=blanca-biokem
 #SBATCH --job-name=RMSD
 #SBATCH --nodes=1
-#SBATCH --ntasks=20
+#SBATCH --ntasks=8
 #SBATCH --mem=32gb
 #SBATCH --time=24:00:00
 #SBATCH --output=/home/%u/slurmfiles_out/slurm_%j.out
 #SBATCH --error=/home/%u/slurmfiles_err/slurm_%j.err
 
-module load amber/v22
+source /programs/sbgrid.shrc
 
 NAME=$(basename -s _heat.nc $(ls ../trajectories/*heat.nc))
 echo "parm ../*.prmtop

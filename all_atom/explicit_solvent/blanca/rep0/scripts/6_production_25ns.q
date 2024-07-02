@@ -11,7 +11,7 @@
 #SBATCH --output=/home/%u/slurmfiles_out/slurm_%j.out
 #SBATCH --error=/home/%u/slurmfiles_err/slurm_%j.err
 
-module load amber/v22
+source /programs/sbgrid.shrc
 NAME=''
 
 pmemd.cuda -O -i 25ns_4fs_per_step.in \
@@ -23,6 +23,9 @@ pmemd.cuda -O -i 25ns_4fs_per_step.in \
               -inf ../mdinfo/${NAME}_25ns.mdinfo
 
 sleep 30
+
+(cd ../analysis && sbatch 0_blanca_strip_and_image.q)
+(cd ../analysis && sbatch 1_blanca_rmsd.q)
 
 echo 25 >> step.txt
 

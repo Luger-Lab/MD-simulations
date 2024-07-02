@@ -12,13 +12,13 @@
 #SBATCH --output=/home/%u/slurmfiles_out/slurm_%j.out
 #SBATCH --error=/home/%u/slurmfiles_err/slurm_%j.err
 
-module load amber/v22
+source /programs/sbgrid.shrc
 NAME=''
 
 TIME_STEP=$( tail -n 1 step.txt )
 ((TIME_STEP+=25))
 
-if [ $TIME_STEP -le 500 ] 
+if [ $TIME_STEP -le 300 ] 
 then
   pmemd.cuda -O -i 25ns_4fs_per_step.in \
                 -o ../outputs/${NAME}_${TIME_STEP}ns.out \

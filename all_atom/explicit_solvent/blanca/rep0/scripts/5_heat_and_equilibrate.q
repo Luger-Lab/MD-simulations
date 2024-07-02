@@ -11,7 +11,7 @@
 #SBATCH --output=/home/%u/slurmfiles_out/slurm_%j.out
 #SBATCH --error=/home/%u/slurmfiles_err/slurm_%j.err
 
-module load amber/v22
+source /programs/sbgrid.shrc
 NAME=''
 
 pmemd.cuda -O -i heat.in \
